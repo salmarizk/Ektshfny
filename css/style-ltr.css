@@ -1,0 +1,64 @@
+.nav-links { margin-left: 141px; margin-right: auto;}
+.links{margin-left: 50px;}
+.insideimg {
+    position: absolute;
+    top: 44%;
+    right: auto;
+    z-index: 1;
+    left: 35%;
+}
+.the-img {
+    position: absolute;
+    right: auto;
+    left: 0;
+}
+.open > .dropdown-menu {
+left: auto;
+right: 3%;
+}
+.insideimg>h2{margin-left: -132px;}
+.above > img {float: left;}
+.theactivity .list-unstyled > li {padding-left: 17px;}
+.student .container > img {float: left;}
+.student .container > h2{float: left;}
+.rating{margin-left:158px;}
+.full > h2 {float: left;}
+.full > img{float: left;}
+.app .container .row .col-md-6 > h1 { font-size: 40px;}
+.team .container > h2 {float: left;}
+.team .container > img {float: left;}
+.logo > h2 {float: left;}
+.logo > img{float: left;  margin-right: 5px;}
+.social {  float: right;}
+.input-group .form-control:last-child{right: -42px; }
+.inpgroup i{margin-right: 14px;  margin-left: auto;}
+
+.styled-select .form-control {background-position: right;}
+.address {float: left;     margin-left: 70px;}
+.above > img{float: left;}
+.rate{margin-left:  auto; float: left!important;}
+.pull-left {float: right!important;}
+.show { margin-right: 79px;}
+.selectdiv .actname {background-position: right;}
+.input_img { position: absolute; right: 26px; left: auto;}
+#owner{float: right;}
+@media(width:1024px)
+{
+    .main-navbar .navbar-nav > li > a {  font-size: 15px;}
+    .main-navbar .navbar-nav.auth-navbar > li > a {  font-size: 11px;}
+    .rating {margin-left: 119px;}
+    .theactivity .list-unstyled > li { padding-left: 12px;}
+    .student .container .words > p { font-size: 13px;}
+    .rate{margin-left: auto;}
+    .insideimg>h2 {
+        color: white;
+        letter-spacing: 2px;
+        padding: auto;
+        font-size: 15px;
+    margin-left: 17px;
+    }
+}
+@media(max-width:768px){
+    .social{float: none; margin-left: unset;}
+    .parag{text-align:center;  margin-right:unset;}
+}
